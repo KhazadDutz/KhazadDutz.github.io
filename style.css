@@ -1,12 +1,42 @@
 #titulo-principal {
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     background-color: lightgray;
-}
-body {
-    background-color: ;
-}
-#indice {
+    font-family: Jura, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body {
+    background-color: rgb(54, 52, 61);
+  }
+
+  p, ul, ol {
+    font-family: Jura, sans-serif;
+    color: whitesmoke;
+  }
+
+  h3 {
+    font-family: Jura, sans-serif;
+    color: whitesmoke;
     font-style: italic;
-    font-size: 40px;
-}
+    text-decoration: underline
+  }
+  #indice {
+    font-family: Jura, sans-serif;
+    font-size: 30;
+    font-weight: 400;
+    font-style: italic;
+    color: whitesmoke;
+    text-decoration: underline;
+    ;
+  }
+
+  .item-da-lista-link {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .circled {
+    border-radius: 100%;
+  }
