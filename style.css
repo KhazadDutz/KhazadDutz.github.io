@@ -1,42 +1,47 @@
 #titulo-principal {
-    text-align: center;
-    font-size: 50px;
-    background-color: lightgray;
-    font-family: Jura, sans-serif;
-    font-weight: normal;
-    font-style: normal;
-  }
+  text-align: center;
+  font-size: 50px;
+  background-color: lightgray;
+  font-family: Jura, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
 
-  body {
-    background-color: rgb(54, 52, 61);
-  }
+body {
+  background-color: rgb(54, 52, 61);
+}
 
-  p, ul, ol {
-    font-family: Jura, sans-serif;
-    color: whitesmoke;
-  }
+#introducao {
+  text-align: justify;
+}
 
-  h3 {
-    font-family: Jura, sans-serif;
-    color: whitesmoke;
-    font-style: italic;
-    text-decoration: underline
-  }
-  #indice {
-    font-family: Jura, sans-serif;
-    font-size: 30;
-    font-weight: 400;
-    font-style: italic;
-    color: whitesmoke;
-    text-decoration: underline;
-    ;
-  }
+p, ul, ol {
+  font-family: Jura, sans-serif;
+  color: whitesmoke;
+  text-decoration: none;
+}
 
-  .item-da-lista-link {
-    color: whitesmoke;
-    text-decoration: none;
-  }
+h3 {
+  font-family: Jura, sans-serif;
+  color: whitesmoke;
+  font-style: italic;
+  text-decoration: underline;
+}
+#indice {
+  font-family: Jura, sans-serif;
+  font-size: 30;
+  font-weight: 400;
+  font-style: italic;
+  color: whitesmoke;
+  text-decoration: underline;
+  ;
+}
 
-  .circled {
-    border-radius: 100%;
-  }
+.item-da-lista-link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.circled {
+  border-radius: 100%;
+}
