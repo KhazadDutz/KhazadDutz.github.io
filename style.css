@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(54, 52, 61);
+}
+
 #titulo-principal {
   text-align: center;
   font-size: 50px;
@@ -5,15 +13,48 @@
   font-family: Jura, sans-serif;
   font-weight: normal;
   font-style: normal;
+  margin: 50px 0 50px;
+  padding: 50px;
 }
 
-body {
-  background-color: rgb(54, 52, 61);
+#indice {
+  font-family: Jura, sans-serif;
+  font-size: 30;
+  font-weight: 400;
+  font-style: italic;
+  color: whitesmoke;
+  text-decoration: underline;
+  margin-left: 10px;
+  }
+
+.bloco-indice {
+   margin: 0 20px 40px;
 }
 
-#introducao {
-  text-align: justify;
+.quem-sou-eu{
+  display: inline-block;
 }
+
+.foto-mauricio {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  float: left;
+  background-color: rosybrown;
+  padding:4px 9px;
+  border-radius: 100%;
+}
+
+.circled {
+  border-radius: 100%;
+  margin-top: 5px;
+}
+.descricao-mauricio {
+  width: 95%;
+  margin: 15px;
+}
+
 
 p, ul, ol {
   font-family: Jura, sans-serif;
@@ -27,21 +68,10 @@ h3 {
   font-style: italic;
   text-decoration: underline;
 }
-#indice {
-  font-family: Jura, sans-serif;
-  font-size: 30;
-  font-weight: 400;
-  font-style: italic;
-  color: whitesmoke;
-  text-decoration: underline;
-  ;
-}
 
 .item-da-lista-link {
   color: whitesmoke;
   text-decoration: none;
 }
 
-.circled {
-  border-radius: 100%;
-}
+
